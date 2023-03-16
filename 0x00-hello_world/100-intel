@@ -1,2 +1,2 @@
 #!/bin/bah
-gcc -s  -masm=intel $CFILE
+gcc -S  -masm=intel $CFILE
