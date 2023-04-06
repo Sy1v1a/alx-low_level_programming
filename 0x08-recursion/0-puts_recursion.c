@@ -6,8 +6,11 @@
  */
 void _puts_recursion(char *s)
 {
-char name;
-name[7] = "julia";
-_puts_recursion("%s/n", *s);
-return (void);
+if(*s)
+{
+	_putchar(*s);
+	_puts_recursion(s+1);
+}
+else
+_putchar('\n');
 }
