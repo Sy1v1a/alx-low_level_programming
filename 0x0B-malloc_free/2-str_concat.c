@@ -19,7 +19,7 @@ while (s1[a] != '\0')
 	a++;
 while (s2[b] != '\0')
 	b++;
-con = malloc(sizeof(char) * (a + b + 1);
+con = malloc(sizeof(char) * (a + b + 1));
 		if (con == NULL)
 		return (NULL);
 a = b = 0;
