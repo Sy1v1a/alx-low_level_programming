@@ -1,3 +1,0 @@
-#ifndef FILE
-
-#define FILE 
