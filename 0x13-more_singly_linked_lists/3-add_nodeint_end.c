@@ -15,7 +15,10 @@ newn->n = n;
 newn->next = NULL;
 
 if (*head == NULL)
+{
 	*head = newn;
+	return (newn);
+}
 while (end->next != NULL)
 	end = end->next;
 end->next = newn;
