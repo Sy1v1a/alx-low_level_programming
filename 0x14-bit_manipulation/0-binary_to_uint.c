@@ -8,7 +8,7 @@ unsigned int binary_to_uint(const char *b)
 {
 	unsigned int unit = 0;
 	int j = 0;
-	
+
 if (!b)
 	return (0);
 
@@ -16,7 +16,7 @@ for (j = 0; b[j]; j++)
 {
 	if (b[j] > '1' || b[j] < '0')
 		return (0);
-	unit = (b[j]- '0') + unit * 2;
+	unit = (b[j] - '0') + unit * 2;
 
 }
 return (unit);
