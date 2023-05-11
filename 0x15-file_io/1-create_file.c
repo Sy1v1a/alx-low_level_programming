@@ -20,7 +20,7 @@ if (filename == NULL)
 	return (-1);
 if (text_content)
 {
-	for (length = 0;text_content[length];length++)
+	for (length = 0; text_content[length];)
 		length++;
 }
 close(fd);
