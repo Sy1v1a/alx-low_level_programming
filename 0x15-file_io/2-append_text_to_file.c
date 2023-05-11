@@ -21,7 +21,6 @@ if (filename == NULL)
 if (text_content)
 {
 	for (length = 0; text_content[length];)
-		
 	length++;
 }
 close(op);
