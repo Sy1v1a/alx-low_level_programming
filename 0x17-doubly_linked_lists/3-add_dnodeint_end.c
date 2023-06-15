@@ -4,9 +4,10 @@
 #include "lists.h"
 /**
  * add_dnodeint_end - a func that adds new node at end
- * @head: first pointer 
+ * @head: first pointer
  * @n: data
- * return: address of new element or NULL if failed
+ *
+ * Return: address of new element or NULL if failed
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
@@ -27,6 +28,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	else
 	{
 		dlistint_t *cn = (*head);
+
 		while (cn->next != NULL)
 		{
 			cn = cn->next;

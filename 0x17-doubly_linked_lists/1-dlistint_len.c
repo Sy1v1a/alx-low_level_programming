@@ -4,7 +4,7 @@
  * dlistint_len - a function that returns the nuner of element in list
  * @h: pointer to node
  *
- * return: number of elements
+ * Return: number of elements
  */
 size_t dlistint_len(const dlistint_t *h)
 {

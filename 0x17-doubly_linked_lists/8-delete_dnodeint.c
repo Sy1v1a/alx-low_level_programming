@@ -5,12 +5,12 @@
  * @head: first pointer
  * @index: position
  *
- * return: i on success -1 if failed
+ * Return: i on success -1 if failed
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 	dlistint_t *cn = *head;
-	unsigned int i =0;
+	unsigned int i = 0;
 
 	if (head == NULL || *head == NULL)
 		return (-1);

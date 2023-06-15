@@ -2,15 +2,16 @@
 #include <stdlib.h>
 #include "lists.h"
 /**
- * add_dnodeint - adds new node at beginning of list
+ * add_dnodeint - a func that adds new node at beginning of list
  * @head: first node
  * @n: node data
  *
- * return: address of new element or NULL if failed
+ * Return: address of new element or NULL if failed
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *nn = malloc(sizeof(dlistint_t));
+
 	if (nn == NULL)
 	{
 		return (NULL);

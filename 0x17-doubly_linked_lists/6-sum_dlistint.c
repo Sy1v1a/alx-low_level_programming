@@ -3,7 +3,7 @@
  * sum_dlistint - sum list
  * @head: first pointer
  *
- * return: 0 if list empty
+ * Return: 0 if list empty
  */
 int sum_dlistint(dlistint_t *head)
 {

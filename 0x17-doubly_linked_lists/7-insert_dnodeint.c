@@ -5,11 +5,12 @@ dlistint_t *new_dnodeint(int i);
  * new_dnodeint - helper func to create new node
  * @i: data
  *
- * return: NULL if fail
+ * Return: NULL if fail
  */
 dlistint_t *new_dnodeint(int n)
 {
 	dlistint_t *nn = malloc(sizeof(dlistint_t));
+
 	if (nn == NULL)
 		return (NULL);
 	nn->n = n;
@@ -25,7 +26,7 @@ dlistint_t *new_dnodeint(int i);
  * @idx: position
  * @n: data
  *
- * return: address of new node or NULL if failed
+ * Return: address of new node or NULL if failed
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {

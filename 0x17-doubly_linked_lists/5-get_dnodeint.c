@@ -4,7 +4,7 @@
  * @head: first pointer
  * @index: number of nodes
  *
- * return: NULL if node doest exist
+ * Return: NULL if node doest exist
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
